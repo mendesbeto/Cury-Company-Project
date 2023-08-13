@@ -123,7 +123,7 @@ def entrega_por_regiao(df1):
 # =========================== Inicio da estrutura dos codigos logicos ===========================
 
 # Importação de arquivo
-df = pd.read_csv('../train.csv')
+df = pd.read_csv('/train.csv')
 
 # Limpando arquivo
 df1 = clean_code(df)
