@@ -11,7 +11,7 @@ from PIL import Image
 
 
 # ============================================================
-# Finções
+# Funções
 # ============================================================
 def clean_code(df1):
     ''' Essa função tem a responsabilidade de limpar dataframe
@@ -135,7 +135,7 @@ df1 = clean_code(df)
 st.header('Marketplace - Visão da Empresa')
 
 #image_path = 'alvo.webp'
-image=Image.open('alvo.webp')
+image=Image.open('../alvo.webp')
 st.sidebar.image(image, width=220)
 
 st.sidebar.markdown('# Cury Company')
