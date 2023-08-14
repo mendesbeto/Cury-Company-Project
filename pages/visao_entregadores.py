@@ -115,7 +115,7 @@ st.header('Marketplace - Visão Entreggadores')
 
 #image_path = 'alvo.webp'
 image=Image.open('alvo.webp')
-st.sidebar.image(image, width=220)
+st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
 st.sidebar.markdown('## Faster Dejivery in Town')

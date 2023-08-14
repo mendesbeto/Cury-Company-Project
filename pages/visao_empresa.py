@@ -135,7 +135,7 @@ df1 = clean_code(df)
 st.header('Marketplace - Visão da Empresa')
 
 #image_path = 'alvo.webp'
-image = Image.open('alvo.jpg')
+image = Image.open('alvo.webp')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
