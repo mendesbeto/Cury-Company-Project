@@ -191,7 +191,6 @@ with tab1:
                     fig = traffic_order_city(df1)
                     st.plotly_chart(fig, use_container_width=True)
              
-        st.markdown('# Teste 01')
 
 with tab2:
     with st.container():
