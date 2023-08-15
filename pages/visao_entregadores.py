@@ -9,8 +9,10 @@ import streamlit as st
 from streamlit_folium import folium_static
 from PIL import Image
 
+st.set_page_config(page_title='Visão Entregadores', page_icon='', layout='wide')
+
 # ============================================================
-# Finções
+# Funções
 # ============================================================
 def clean_code(df1):
     ''' Essa função tem a responsabilidade de limpar dataframe
@@ -114,7 +116,7 @@ df1 = clean_code(df)
 st.header('Marketplace - Visão Entreggadores')
 
 #image_path = 'alvo.webp'
-image=Image.open('alvo.webp')
+image = Image.open( 'Alvo.webp' )
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
