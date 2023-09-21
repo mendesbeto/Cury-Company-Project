@@ -1,4 +1,4 @@
-# cury_company
+# Cury Company
 This repository contains files and script to build a company strategy dashboard
 
 ## 1. Problema de negócio
