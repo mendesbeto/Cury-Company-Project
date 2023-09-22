@@ -145,10 +145,11 @@ st.sidebar.markdown('''___''')
 st.sidebar.markdown('## Selecione uma das data limite')
 data_slider = st.sidebar.slider(
     'Até qual valor?',
-    value = datetime (2022, 4, 13),
-    min_value = datetime (2022, 2, 11),
-    max_value = datetime (2022, 4, 6),
-    format = "dd-mm-yyyy")
+    #value = datetime (2022, 4, 13),
+    #min_value = datetime (2022, 2, 11),
+    #max_value = datetime (2022, 4, 6),
+    #format = "dd-mm-yyyy"
+)
 
 st.sidebar.markdown('''---''')
 
