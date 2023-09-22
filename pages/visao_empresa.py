@@ -145,10 +145,10 @@ st.sidebar.markdown('''___''')
 st.sidebar.markdown('## Selecione uma das data limite')
 data_slider = st.sidebar.slider(
     'Até qual valor?',
-    #value = datetime (2022, 4, 13),
-    #min_value = datetime (2022, 2, 11),
-    #max_value = datetime (2022, 4, 6),
-    #format = "dd-mm-yyyy"
+    value = datetime (2022, 4, 13),
+    min_value = datetime (2022, 2, 11),
+    max_value = datetime (2022, 4, 6),
+    format = "dd-mm-yyyy"
 )
 
 st.sidebar.markdown('''---''')
@@ -162,7 +162,7 @@ st.sidebar.markdown('''---''')
 st.sidebar.markdown('### Powered by Comunidade DS')
 
 linha_selecionada = df1['Order_Date'] < data_slider
-df1 = df1.loc[:,:]
+df1 = df1.loc[linha_selecionada,:]
 
 # Filtro de Trafico
 linha_selecionada = df1['Road_traffic_density'].isin( traffic_options)
