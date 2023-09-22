@@ -162,7 +162,7 @@ st.sidebar.markdown('''---''')
 st.sidebar.markdown('### Powered by Comunidade DS')
 
 linha_selecionada = df1['Order_Date'] < data_slider
-df1 = df1.loc[linha_selecionada,:]
+df1 = df1.loc[:,:]
 
 # Filtro de Trafico
 linha_selecionada = df1['Road_traffic_density'].isin( traffic_options)
