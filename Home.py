@@ -1,4 +1,3 @@
-!pip install streamlit
 import streamlit as st
 from PIL import Image
 
@@ -18,7 +17,7 @@ st.sidebar.markdown('''___''')
 st.write('# Cury Company Growth Dashboard')
 
 st.markdown(
-    '''
+        '''
     Growth Dashboard foi construído para acompanhar as métricas de crescimento dos Entregadores e Restaurantes.
     ### Como utilizar esse Growth Dashboard?
     - Visão Empresa:
