@@ -1,5 +1,6 @@
 # Cury Company
 This repository contains files and script to build a company strategy dashboard
+https://cury-company-project.streamlit.app/
 
 ## 1. Problema de negócio
 A Cury Company é uma empresa de tecnologia que criou um aplicativo
